@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rider World</title>
+
+    <style>
+        body {
+            background: #0a0a0a;
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .box {
+            padding: 20px;
+            border: 2px solid #ff0055;
+            border-radius: 12px;
+            background: #1a1a1a;
+            width: 70%;
+            margin: auto;
+        }
+
+        a {
+            color: #00c8ff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🚀 Welcome to Rider World</h1>
+
+    <div class="box">
+        <p>ยินดีต้อนรับสู่เว็ปไซต์ของผม</p>
+        <p><a href="https://google.com" target="_blank">ไปแท็ปต่อไป</a></p>
+    </div>
+</body>
+</html>
