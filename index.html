@@ -5,6 +5,28 @@
 <title>Rider World – Patch Notes</title>
 
 <style>
+   <body>
+
+    <!-- เนื้อหาเว็บของนาย -->
+
+    <script>
+        // กันคลิกขวา
+        document.addEventListener("contextmenu", e => e.preventDefault());
+
+        // กันกด F12 / Ctrl+Shift+I (กันแค่ระดับกวนใจ ไม่ได้กัน 100%)
+        document.onkeydown = function(e) {
+            if (e.key === "F12") {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J")) {
+                return false;
+            }
+            if (e.ctrlKey && (e.key === "U")) {
+                return false;
+            }
+        };
+    </script>
+    
     body {
         margin:0;
         padding:0;
